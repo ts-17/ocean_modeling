@@ -7,10 +7,11 @@ This work demonstrates that $R^2$ can often fail to reflect meaningful structure
 Models are evaluated using both conventional metrics ($R^2$, RMSE, MAE) and the 1-Wasserstein distance. Code includes synthetic benchmarks and real-world modeling pipelines using scikit-learn, with GridSearchCV for hyperparameter tuning and customized scoring functions.
 
 ## Contents
-- `src/`: Code used in this project and analysis
-- `evals/`: The for-score runs used in the paper
-- `plots/`: Plots used in the paper
-- `calcofi_data/`: Download the Bottle and Cast .csv files to here, this also contains the California coastline data from Natural Earth
+- `src/`: Code used in this project and analysis.
+- `evals/`: The for-score runs used in the paper.
+- `plots/`: Plots used in the paper.
+- `calcofi_data/`: Download the Bottle and Cast .csv files to here, this also contains the California coastline data from Natural Earth.
+- `TS_625-726_Ocean_Modeling.pdf`: This was the final project's writeup for my class (Theory of Statistics II) and received 100/100. :)
 
 ## Note
 Some models are commented out and use reduced hyperparameter grids to keep training time feasible. All work is performed on a Apple MacBook Pro (14 core M4 CPU, 48GB RAM).
